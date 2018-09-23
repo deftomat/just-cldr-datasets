@@ -1,0 +1,31 @@
+{
+  "name": "just-cldr-datasets",
+  "version": "1.0.0",
+  "description": "CLDR datasets exported as JavaScript objects.",
+  "license": "MIT",
+  "author": "Tomas Szabo <tomas.szabo@deftomat.com>",
+  "repository": "github:deftomat/just-cldr-datasets",
+  "homepage": "https://github.com/deftomat/just-cldr-datasets",
+  "files": [
+    "/*.js",
+    "/*.d.ts"
+  ],
+  "keywords": [
+    "cldr",
+    "dataset",
+    "timezone",
+    "country",
+    "state",
+    "province"
+  ],
+  "scripts": {
+    "build": "./build.sh",
+    "prepublishOnly": "./build.sh"
+  },
+  "sideEffects": false,
+  "devDependencies": {
+    "cldr": "^4.11.0",
+    "prettier": "1.14.2",
+    "ramda": "^0.25.0"
+  }
+}

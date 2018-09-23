@@ -1,0 +1,10 @@
+{
+  "compileOnSave": false,
+  "compilerOptions": {
+    "declaration": true,
+    "outDir": "./",
+    "target": "es5"
+  },
+  "exclude": ["node_modules"],
+  "include": ["tmp/*.ts"]
+}
